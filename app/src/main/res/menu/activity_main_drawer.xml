@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashbord"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashbord" />
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:title="Booking" />
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:title="Bill" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+            android:title="Emergency Number" />
+        <item
+            android:id="@+id/nav_announcement"
+            android:icon="@drawable/ic_record_voice_over_black_24dp"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_vehicle"
+            android:icon="@drawable/ic_drive_eta_black_24dp"
+            android:title="Vehicles" />
+        <item
+            android:id="@+id/nav_building"
+            android:icon="@drawable/ic_building_blue_24dp"
+            android:title="My Building" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_permission"
+            android:icon="@drawable/ic_touch_app_black_24dp"
+            android:title="Permission" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_playlist_add_check_black_24dp"
+            android:title="Rules" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_password"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="Password" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_contect"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_dvr_black_24dp"
+            android:title="Privacy_Policy" />
+
+        <item
+            android:id="@+id/nav_terms_condition"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Terms And Condition" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
